@@ -51,7 +51,7 @@ ul{
 	margin: 0; 
 	padding: 0;
 	overflow: hidden;
-	background-color: DodgerBlue;
+	background-color: black;
 }
 li{
 	float: left;
@@ -61,8 +61,28 @@ li a{
 	display: block; 
 	color: white;
 	font-size: 22px;
-	background-color: DodgerBlue;
-	padding: 14px 39px;
+	background-color: black;
+	padding: 14px 33px;
 	text-align: center;
 	text-decoration: none;
+}
+li a: hover{
+	background-color: CornflowerBlue;
+}
+
+.ativo{
+	background-color: CornFlowerBlue !important;
+	border: 1px solid white;
+	box-shadow: 0 0 3px white;-
+}
+table caption{
+	border:1px solid white;
+}
+table{
+	margin: 0 auto;
+	border-color :white;
+}
+table img{
+	height: 80px;
+	width: 80px;
 }
